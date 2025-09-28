@@ -66,12 +66,69 @@ pip install pandas numpy seaborn matplotlib scikit-learn imbalanced-learn
 ## Workflow Pipeline:
 
 
+<img width="542" height="606" alt="Screenshot 2025-09-28 142004" src="https://github.com/user-attachments/assets/20f8e057-e6a6-4d2d-95ce-acf8353f9932" />
+
+
 
 ## Model Performance:
+
+Before SMOTE: [1233  237]
+
+After SMOTE: [1233 1233]
+
+AUC Score: 0.9795081967213115
+
+Accuracy scores for each fold: [0.6194332  0.97971602 0.98580122 0.97971602 0.79513185]
+
+Average accuracy: 0.8719596619884864
+
+Confusion Matrix:
+
+[[245   5]
+
+ [ 28 216]]
+
+Classification Report:
+
+               precision    recall  f1-score   support
+
+          No       0.90      0.98      0.94       250
+         Yes       0.98      0.89      0.93       244
+
+    accuracy                           0.93       494
+   macro avg       0.94      0.93      0.93       494
+   
+weighted avg       0.94      0.93      0.93       494
+
+Accuracy Score: 0.9331983805668016
+
+Precision Score: 0.9773755656108597
+
+Recall Score: 0.9331983805668016
+
+F1 Score: 0.9290322580645162
 
 
 
 ## Visualizations:
+
+
+<img width="712" height="496" alt="Screenshot 2025-09-28 140940" src="https://github.com/user-attachments/assets/52f6fc7a-5833-41db-9413-69311421b3cb" />
+
+### Comparision of heatmap on the basis of counts between Logistic Regression and RF Classifier:
+
+<img width="704" height="493" alt="Screenshot 2025-09-28 140923" src="https://github.com/user-attachments/assets/f3d30b98-f5ff-4406-ad34-14ff14eabfc1" />
+
+<img width="681" height="498" alt="Screenshot 2025-09-28 141050" src="https://github.com/user-attachments/assets/adae9d7d-bf12-4617-8f1b-bcd994a9d4e0" />
+
+### ROC Curve:
+
+<img width="712" height="597" alt="Screenshot 2025-09-28 140844" src="https://github.com/user-attachments/assets/e550b568-ad68-4558-96ef-79764b592a6a" />
+
+### Top 15 features:
+
+<img width="1170" height="744" alt="Screenshot 2025-09-28 140826" src="https://github.com/user-attachments/assets/307e366c-6c7a-44ed-86db-92209ff48673" />
+
 
 
 
